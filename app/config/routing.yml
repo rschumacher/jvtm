@@ -1,5 +1,5 @@
-raep_config_manager:
-    resource: "@RaepConfigManagerBundle/Resources/config/routing.yml"
+raep_config_mgt:
+    resource: "@RaepConfigMgtBundle/Resources/config/routing.yml"
     prefix:   /
 
 raep_test_spec:

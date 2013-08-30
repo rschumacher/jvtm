@@ -1,6 +1,6 @@
 <?php
 
-namespace Raep\ConfigManagerBundle\Tests\Controller;
+namespace Raep\ConfigMgtBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

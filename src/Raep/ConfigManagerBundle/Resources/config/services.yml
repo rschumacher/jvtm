@@ -1,7 +1,0 @@
-parameters:
-#    raep_config_manager.example.class: Raep\ConfigManagerBundle\Example
-
-services:
-#    raep_config_manager.example:
-#        class: %raep_config_manager.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

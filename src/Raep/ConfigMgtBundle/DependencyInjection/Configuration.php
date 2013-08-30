@@ -1,6 +1,6 @@
 <?php
 
-namespace Raep\ConfigManagerBundle\DependencyInjection;
+namespace Raep\ConfigMgtBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('raep_config_manager');
+        $rootNode = $treeBuilder->root('raep_config_mgt');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

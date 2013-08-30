@@ -25,8 +25,10 @@ class AppKernel extends Kernel
             // Sonata bundles:
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
+
+            // raep/jv bundles:
             new Raep\TestSpecBundle\RaepTestSpecBundle(),
-            new Raep\ConfigManagerBundle\RaepConfigManagerBundle(),
+            new Raep\ConfigMgtBundle\RaepConfigMgtBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
