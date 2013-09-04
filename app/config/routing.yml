@@ -1,10 +1,27 @@
-raep_config_mgt:
-    resource: "@RaepConfigMgtBundle/Resources/config/routing.yml"
+ebbe_test_specification:
+    resource: "@EbbeTestSpecificationBundle/Resources/config/routing.yml"
     prefix:   /
 
-raep_test_spec:
-    resource: "@RaepTestSpecBundle/Resources/config/routing.yml"
+ebbe_tagging:
+    resource: "@EbbeTaggingBundle/Resources/config/routing.yml"
     prefix:   /
+
+ebbe_test_planning:
+    resource: "@EbbeTestPlanningBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ebbe_test_evaluation:
+    resource: "@EbbeTestEvaluationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ebbe_test_mission:
+    resource: "@EbbeTestMissionBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ebbe_config_mgt:
+    resource: "@EbbeConfigMgtBundle/Resources/config/routing.yml"
+    prefix:   /
+
 
 admin:
     resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'

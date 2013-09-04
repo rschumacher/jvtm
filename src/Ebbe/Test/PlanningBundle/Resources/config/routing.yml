@@ -1,0 +1,3 @@
+ebbe_test_planning_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: EbbeTestPlanningBundle:Default:index }

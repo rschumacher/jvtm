@@ -1,0 +1,7 @@
+parameters:
+#    ebbe_test_mission.example.class: Ebbe\Test\MissionBundle\Example
+
+services:
+#    ebbe_test_mission.example:
+#        class: %ebbe_test_mission.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

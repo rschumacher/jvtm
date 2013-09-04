@@ -1,0 +1,7 @@
+parameters:
+#    ebbe_test_planning.example.class: Ebbe\Test\PlanningBundle\Example
+
+services:
+#    ebbe_test_planning.example:
+#        class: %ebbe_test_planning.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

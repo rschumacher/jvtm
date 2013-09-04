@@ -1,3 +1,0 @@
-raep_test_spec_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: RaepTestSpecBundle:Default:index }

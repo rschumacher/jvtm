@@ -1,0 +1,7 @@
+parameters:
+#    ebbe_tagging.example.class: Ebbe\TaggingBundle\Example
+
+services:
+#    ebbe_tagging.example:
+#        class: %ebbe_tagging.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

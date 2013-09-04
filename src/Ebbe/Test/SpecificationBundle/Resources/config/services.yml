@@ -1,0 +1,7 @@
+parameters:
+#    ebbe_test_specification.example.class: Ebbe\Test\SpecificationBundle\Example
+
+services:
+#    ebbe_test_specification.example:
+#        class: %ebbe_test_specification.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,7 +1,0 @@
-parameters:
-#    raep_test_spec.example.class: Raep\TestSpecBundle\Example
-
-services:
-#    raep_test_spec.example:
-#        class: %raep_test_spec.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

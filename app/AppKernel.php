@@ -26,9 +26,13 @@ class AppKernel extends Kernel
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
 
-            // raep/jv bundles:
-            new Raep\TestSpecBundle\RaepTestSpecBundle(),
-            new Raep\ConfigMgtBundle\RaepConfigMgtBundle(),
+            new Ebbe\ConfigMgtBundle\EbbeConfigMgtBundle(),
+			new Ebbe\Test\SpecificationBundle\EbbeTestSpecificationBundle(),
+            new Ebbe\Test\MissionBundle\EbbeTestMissionBundle(),
+            new Ebbe\Test\PlanningBundle\EbbeTestPlanningBundle(),
+            new Ebbe\Test\EvaluationBundle\EbbeTestEvaluationBundle(),
+            new Ebbe\TaggingBundle\EbbeTaggingBundle(),
+            new Ebbe\Test\ExecutionBundle\EbbeTestExecutionBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
