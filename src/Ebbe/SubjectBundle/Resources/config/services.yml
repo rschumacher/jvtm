@@ -1,0 +1,7 @@
+parameters:
+#    ebbe_subject.example.class: Ebbe\SubjectBundle\Example
+
+services:
+#    ebbe_subject.example:
+#        class: %ebbe_subject.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

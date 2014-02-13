@@ -1,3 +1,11 @@
+ebbe_test_topic:
+    resource: "@EbbeTestTopicBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ebbe_subject:
+    resource: "@EbbeSubjectBundle/Resources/config/routing.yml"
+    prefix:   /
+
 ebbe_test_specification:
     resource: "@EbbeTestSpecificationBundle/Resources/config/routing.yml"
     prefix:   /
@@ -16,10 +24,6 @@ ebbe_test_evaluation:
 
 ebbe_test_mission:
     resource: "@EbbeTestMissionBundle/Resources/config/routing.yml"
-    prefix:   /
-
-ebbe_config_mgt:
-    resource: "@EbbeConfigMgtBundle/Resources/config/routing.yml"
     prefix:   /
 
 

@@ -1,4 +1,4 @@
-JV REAP Test Management
+JV RAEP Test Management
 =======================
 
 Topical domains & entities:

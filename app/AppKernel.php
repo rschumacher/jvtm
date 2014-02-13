@@ -26,13 +26,14 @@ class AppKernel extends Kernel
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
 
-            new Ebbe\ConfigMgtBundle\EbbeConfigMgtBundle(),
 			new Ebbe\Test\SpecificationBundle\EbbeTestSpecificationBundle(),
             new Ebbe\Test\MissionBundle\EbbeTestMissionBundle(),
             new Ebbe\Test\PlanningBundle\EbbeTestPlanningBundle(),
             new Ebbe\Test\EvaluationBundle\EbbeTestEvaluationBundle(),
             new Ebbe\TaggingBundle\EbbeTaggingBundle(),
             new Ebbe\Test\ExecutionBundle\EbbeTestExecutionBundle(),
+            new Ebbe\SubjectBundle\EbbeSubjectBundle(),
+            new Ebbe\Test\TopicBundle\EbbeTestTopicBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

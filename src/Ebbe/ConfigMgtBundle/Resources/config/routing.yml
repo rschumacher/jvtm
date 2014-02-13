@@ -1,3 +1,0 @@
-ebbe_config_mgt_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: EbbeConfigMgtBundle:Default:index }
